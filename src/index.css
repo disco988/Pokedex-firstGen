@@ -1,0 +1,54 @@
+*{box-sizing: border-box;
+padding:0;
+margin:0;
+font-family: 'Kanit',serif;}
+
+body{
+  background-color: rgb(10, 167, 240)
+}
+
+.top-bar{
+  height: 15vh;
+  background-color: #ed0d0d;
+  position:relative;
+}
+
+.pokeball {
+  position:absolute;
+  left:50%;
+  top:20%;
+  transform: translate(-50%,0%);
+}
+
+.main-container{
+  background-color: rgb(10, 167, 240);
+}
+
+.card {
+
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  background: rgb(241, 231, 231);
+  text-transform: uppercase;
+  
+}
+
+.main-container{
+  margin:0 auto;
+  width: 80%;
+  padding-top: 5vh;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 50px;
+  
+  
+}
+
+.grass{
+  background-color: #3ceeb5;
+}
